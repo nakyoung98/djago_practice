@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#Pycharm
+.idea/
+
+#sqlite ignore
+*.sqlite3
