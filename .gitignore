@@ -131,6 +131,7 @@ dmypy.json
 
 #Pycharm
 .idea/
+migrations/
 
 #sqlite ignore
 *.sqlite3
