@@ -1,3 +1,6 @@
 마이그레이션: 데이터 베이스에 적용시켜야 하는 변화에 대한 기록
 
-앱생성 : python manage.py startapp 앱이름 -> 현재 위치에 앱 이름에 해당하는 앱폴더가 생성됨
+앱생성 : python manage.py startapp 앱이름 -> 현재 위치에 앱 이름에 해당하는 앱폴더가 생성됨\
+
+수정한 모델은 python manage.py makemigrations 명령으로 장고에게 알려줘야하며,
+python manage.py migrate로 데이터 베이스에 반영해야한다.
